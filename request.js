@@ -9,10 +9,8 @@ else{
     localStorage.setItem('locations','Toshkent')
     locations = localStorage.getItem('locations')
 }
-const getData=async(location)=>{
-    overlay.classList.remove('hide')
+const getData=async(location)=>
     const req= await fetch(`https://islomapi.uz/api/present/day?region=${location}`)
-    const data= await req.json();
-    overlay.classList.add('hide')
+    const data= await req.json()
     return(data)
 }
