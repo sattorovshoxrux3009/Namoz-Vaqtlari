@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namoz vaqtlari</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="img"></div>
+    <div class="container">
+      <h1 class="title">Namoz Vaqtlari</h1>
+      <div class="line"></div>
+      <div class="header">
+        <h1 class="text">Hududni tanlang:</h1>
+        <select class="select1" name="select" id="select">
+          <option value="Andijon">Andijon</option>
+          <option value="Buxoro">Buxoro</option>
+          <option value="Farg'ona">Farg'ona</option>
+          <option value="Jizzax">Jizzax</option>
+          <option value="Urganch">Xorazm</option>
+          <option value="Namangan">Namangan</option>
+          <option value="Navoiy">Navoiy</option>
+          <option value="Qarshi">Qashqadaryo</option>
+          <option value="Nukus">Qoraqalpog'iston</option>
+          <option value="Samarqand">Samarqand</option>
+          <option value="Guliston">Sirdaryo</option>
+          <option value="Termiz">Surxondaryo</option>
+          <option value="Toshkent">Toshkent</option>
+        </select>
+      </div>
+      <div class="wrapper">
+        <div class="wrapper-left">
+          <p class="wrapper-text">Mintaqa:</p>
+          <p class="climate">Andijon</p>
+        </div>
+        <div class="wrapper-right">
+          <img class="wrapper-img" src="./img/calendar.png" alt="" />
+          <div class="wrapper-date">
+            <p id="date" class="date">Dushanba, 14-fevral</p>
+            <p id="date2" class="date-2">Rabi I 1, 1444 AH</p>
+          </div>
+          <h1 id="time" class="time">01:45:45</h1>
+        </div>
+      </div>
+      <ul class="cards">
+        <li class="cards-item">
+          <p class="card-title">Tong</p>
+          <img src="./img/Tong.png" alt="" class="card-img" />
+          <p id="tong" class="card-time">4:53</p>
+        </li>
+        <li class="cards-item">
+          <p class="card-title">Quyosh</p>
+          <img src="./img/Quyosh.png" alt="" class="card-img" />
+          <p id="quyosh" class="card-time">6:14</p>
+        </li>
+        <li class="cards-item ">
+          <p class="card-title ">Peshin</p>
+          <img src="./img/Peshin.png" alt="" class="card-img" />
+          <p id="peshin" class=" card-time">12:14</p>
+        </li>
+        <li class="cards-item">
+          <p class="card-title">Asr</p>
+          <img src="./img/Asr.png" alt="" class="card-img" />
+          <p id="asr" class="card-time">16:27</p>
+        </li>
+        <li class="cards-item">
+          <p class="card-title">Shom</p>
+          <img src="./img/Shom.png" alt="" class="card-img" />
+          <p id="shom" class="card-time">18:19</p>
+        </li>
+        <li class="cards-item">
+          <p class="card-title">Xufton</p>
+          <img src="./img/Xufton.png" alt="" class="card-img" />
+          <p id="xufton" class="card-time">19:30</p>
+        </li>
+      </ul>
+    </div>
+    <div class="overlay hide" id="overlay">
+        <div class="lds-ring">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    <script src="./request.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
